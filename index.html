@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>診断LP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="sindan">
+    <ol id="question">
+      <li>
+        <span>Q1</span>
+        <p>～？</p>
+        <input id="q1-y" class="btn" name="q1" type="radio" value="1"><label class="label" for="q1-y">YES</label>
+        <input id="q1-n" class="btn" name="q1" type="radio" value="0"><label class="label" for="q1-n">NO</label>
+      </li>
+      <li>
+        <span>Q2</span>
+        <p>～？</p>
+        <input id="q2-y" class="btn" name="q2" type="radio" value="1"><label class="label" for="q2-y">YES</label>
+        <input id="q2-n" class="btn" name="q2" type="radio" value="0"><label class="label" for="q2-n">NO</label>
+      </li>
+      <li>
+        <span>Q3</span>
+        <p>～？</p>
+        <input id="q3-y" class="btn" name="q3" type="radio" value="1"><label class="label" for="q3-y">YES</label>
+        <input id="q3-n" class="btn" name="q3" type="radio" value="0"><label class="label" for="q3-n">NO</label>
+      </li>
+      <li>
+        <span>Q4</span>
+        <p>～？</p>
+        <input id="q4-y" class="btn" name="q4" type="radio" value="1"><label class="label" for="q4-y">YES</label>
+        <input id="q4-n" class="btn" name="q4" type="radio" value="0"><label class="label" for="q4-n">NO</label>
+      </li>
+      <li>
+        <span>Q5</span>
+        <p>～？</p>
+        <input id="q5-y" class="btn" name="q5" type="radio" value="1"><label class="label" for="q5-y">YES</label>
+        <input id="q5-n" class="btn" name="q5" type="radio" value="0"><label class="label" for="q5-n">NO</label>
+      </li>
+    </ol>
+    <section id="result">
+      <h2 id="type_title"></h2>
+      <p id="type_desc"></p>
+    </section>
+    <button type="button" id="resultBtn">結果を見る</button>
+    <button type="button" id="backBtn" class="hide">戻る</button>
+    <a href="" class="btn btn--orange btn--radius">PUSH</a>
+    <p id="error"></p>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
